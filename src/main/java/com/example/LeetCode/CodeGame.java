@@ -19,6 +19,7 @@ class Test {
         Person p2 = te.change(p1);
         System.out.println(p2.pid + " "+ p2.name + " " + p2.age);
         System.out.println(p1.pid + " "+ p1.name + " " + p1.age);
+        System.out.println("5 Commit");
     }
     private Person change(Object o) {
         Person p2 = (Person) o;
